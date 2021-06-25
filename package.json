@@ -5,6 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:rsocket-rxjs": "cd ./vendor/rsocket-rxjs && tsc --watch",
+    "build:ng-rsocket-rxjs": "ng build --project ng-rsocket-rxjs --watch",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -34,6 +36,7 @@
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
+    "ng-packagr": "^12.1.0-next.0",
     "typescript": "~4.3.2"
   }
 }

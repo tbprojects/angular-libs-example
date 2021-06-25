@@ -14,6 +14,10 @@ const log = factory.getLogger('.RSocketClient');
 
 export class RSocketClient implements RSocket<Payload, Payload> {
 
+    static getTitle() {
+      return 'rsocket-rxjs';
+    }
+
     private _state: BehaviorSubject<RSocketState> = new BehaviorSubject<RSocketState>(RSocketState.Disconnected);
     private _incoming: Subject<Frame> = new Subject();
 

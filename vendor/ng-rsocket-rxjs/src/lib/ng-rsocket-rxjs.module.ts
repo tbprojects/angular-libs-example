@@ -22,6 +22,9 @@ export interface RSocketRxjsModuleConfig {
 })
 export class RSocketRxjsModule {
 
+  static getTitle() {
+    return `ng-rsocket-rxjs is based on ${RSocketClient.getTitle()}`;
+  }
 
   static forRoot(config: RSocketRxjsModuleConfig): ModuleWithProviders<RSocketRxjsModule> {
 

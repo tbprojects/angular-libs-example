@@ -19,7 +19,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng-rsocket-rxjs": [
+        "dist/ng-rsocket-rxjs",
+      ],
+      "rsocket-rxjs": [
+        "vendor/rsocket-rxjs/dist"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

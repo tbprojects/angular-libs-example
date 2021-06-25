@@ -8,7 +8,7 @@ export { SpringRSocketMessagingBuilder } from './lib/api/rsocket-factory';
 export { CompositeMetadata } from './lib/extensions/composite-metadata';
 export { Authentication } from './lib/extensions/security/authentication';
 
-export { RSocketResponder, RSocket } from './lib/api/rsocket.api';
+export { RSocketResponder, RSocket, RSocketState } from './lib/api/rsocket.api';
 export { Payload } from './lib/core/protocol/payload';
 export { EncodingRSocketResponder } from './lib/extensions/encoding-rsocket-responder';
 export { RSocketRoutingResponder } from './lib/extensions/messages/rsocket-routing-responder';

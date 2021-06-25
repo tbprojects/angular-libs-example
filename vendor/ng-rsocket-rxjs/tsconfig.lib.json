@@ -1,7 +1,7 @@
 /* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
-  "extends": "../ng-rsockets-rxjs/tsconfig.json",
   "compilerOptions": {
+    "baseUrl": ".",
     "outDir": "../../out-tsc/lib",
     "declarationMap": true,
     "target": "es2015",
@@ -16,6 +16,9 @@
       "@core/*": [
         "src./core/*"
       ],
+      "rsocket-rxjs": [
+        "../rsocket-rxjs/dist"
+      ]
     }
   },
   "angularCompilerOptions": {
