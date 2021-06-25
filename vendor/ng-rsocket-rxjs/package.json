@@ -1,0 +1,29 @@
+{
+  "name": "ng-rsocket-rxjs",
+  "version": "0.0.11",
+  "peerDependencies": {
+    "@angular/common": "^10.0.14",
+    "@angular/core": "^10.0.14",
+    "rsocket-rxjs": "^0.1.1"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "devDependencies": {
+    "karma-opera-launcher": "^1.0.0"
+  },
+  "keywords": [
+    "angular",
+    "rsocket"
+  ],
+  "author": {
+    "name": "Jascha Riedel",
+    "email": "jaschelite@googlemail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freelancer1845/ng-rsockets-rxjs"
+  },
+  "homepage": "https://github.com/freelancer1845/ng-rsockets-rxjs",
+  "license": "Apache 2.0"
+}
